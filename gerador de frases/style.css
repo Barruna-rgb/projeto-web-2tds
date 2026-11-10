@@ -1,0 +1,131 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.container {
+    width: 100%;
+    max-width: 550px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #d0d0d0;
+    font-size: 15px;
+}
+
+.card {
+    background: #ffffff;
+    color: #222222;
+    padding: 35px 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    background: #f8f8f8;
+}
+
+.frase-area {
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.frase-area p {
+    font-size: 21px;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+.aspas {
+    font-size: 45px;
+    color: #4169e1;
+    line-height: 1;
+}
+
+.final {
+    align-self: flex-end;
+}
+
+#categoria-frase {
+    color: #777777;
+    font-size: 13px;
+    margin: 15px 0 20px;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #4169e1;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background: #294bb0;
+}
+
+.copiar {
+    background: #263238;
+}
+
+.copiar:hover {
+    background: #455a64;
+}
+
+#mensagem {
+    font-size: 13px;
+    color: #2e7d32;
+    min-height: 16px;
+}
+
+footer {
+    margin-top: 25px;
+    color: #cccccc;
+    font-size: 13px;
+}

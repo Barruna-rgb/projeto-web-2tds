@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gere frases motivacionais, reflexivas e inspiradoras.">
+    <title>Gerador de Frases</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <header>
+            <h1>Gerador de Frases</h1>
+            <p>Encontre uma frase para inspirar seu dia.</p>
+        </header>
+
+        <section class="card">
+            <label for="categoria">Escolha uma categoria:</label>
+
+            <select id="categoria">
+                <option value="todas">Todas as categorias</option>
+                <option value="motivacao">Motivação</option>
+                <option value="reflexao">Reflexão</option>
+                <option value="vida">Vida</option>
+                <option value="sucesso">Sucesso</option>
+            </select>
+
+            <div class="frase-area">
+                <span class="aspas">“</span>
+                <p id="frase">Clique no botão para gerar sua primeira frase!</p>
+                <span class="aspas final">”</span>
+            </div>
+
+            <p id="categoria-frase">Aguardando uma frase...</p>
+
+            <button id="gerarBtn">Gerar nova frase</button>
+
+            <button id="copiarBtn" class="copiar">
+                Copiar frase
+            </button>
+
+            <p id="mensagem" aria-live="polite"></p>
+        </section>
+
+        <footer>
+            <p>Gerador de Frases | Projeto JavaScript</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
